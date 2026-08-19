@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Collaboration Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Task Collaboration Tool</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Team Members</h2>
+        <ul>
+            <li>Alice</li>
+            <li>Bob</li>
+            <li>Lakshmi</li>
+            <li>John</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Project Tasks</h2>
+        <ul id="taskList">
+            <li>Design Homepage</li>
+            <li>Create Database</li>
+            <li>Test Application</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Add New Task</h2>
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
